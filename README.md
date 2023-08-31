@@ -1,8 +1,13 @@
 Funcionalidades do Projeto de EcoSenac:
 
 1.Vizualizar pontos de coleta;
+
 2.Cadastrar pontos de coleta;
+
 3.Cadastrar clientes (Login);
+
 4.Cliente obter informação e dicas de reciclagem e descarte correto;
+
 5.Deletar cadastro;
+
 6.Atualizar cadastro e pontos de coleta;
