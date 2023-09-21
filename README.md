@@ -1,19 +1,26 @@
 **Projeto EcoSenac** <br>
 O EcoSenac é uma plataforma para promover a sustentabilidade.
 Permite visualizar e cadastrar pontos de coleta, criar contas de cliente, obter informações sobre reciclagem, deletar ou atualizar contas e pontos de coleta. <br>
-Uma plataforma criada para facilitar o descarte correto de resíduos e promover práticas sustentáveis.*
+Uma plataforma criada para facilitar o descarte correto de resíduos e promover práticas sustentáveis.
 
 **01. Tela de Login**
 
-![Prototipo_Tela_Login](https://github.com/livamaral/ecoSenac/assets/101746345/afb1a7a2-62b5-4446-9d3c-fb8e13ecd16d)
+![Versão Final Login (3)](https://github.com/livamaral/ecoSenac/assets/101746345/2377dd15-8ea4-4bb1-acad-f87849d07999)
+
 
 **02. Tela de Cadastro**
    
-![telacadastro](https://github.com/livamaral/ecoSenac/assets/101746345/eec3a819-e462-4cd6-9ca8-f929e6ba513b)
+![Cadastro de Clientes](https://github.com/livamaral/ecoSenac/assets/101746345/787d14d7-d644-47ac-a5ba-40c4fd3bd6cd)
+
 
 **03. Tela de Pontos e Cadastro de Coleta**
 
 ![pontos_de_coleta](https://github.com/livamaral/ecoSenac/assets/101746345/cbb6dc27-6b38-4046-ac57-6728afe6a2d8)
+
+**04. Tela Sobre Nós**
+
+![Untitled](https://github.com/livamaral/ecoSenac/assets/101746345/c8783c8b-8ff2-48bc-b875-5e4c4d1d06d5)
+
 
 
 
