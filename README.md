@@ -19,7 +19,8 @@ Uma plataforma criada para facilitar o descarte correto de resíduos e promover 
 
 **04. Tela Sobre Nós**
 
-![Untitled](https://github.com/livamaral/ecoSenac/assets/101746345/c8783c8b-8ff2-48bc-b875-5e4c4d1d06d5)
+![sobre](https://github.com/livamaral/ecoSenac/assets/116684323/1ba0710c-6dce-4bec-b794-42491015b08c)
+
 
 **05. Tela Dicas**
 
