@@ -27,6 +27,11 @@ Uma plataforma criada para facilitar o descarte correto de resíduos e promover 
 ![dicas](https://github.com/livamaral/ecoSenac/assets/101746345/0f07b584-df00-4ad5-945c-514aa46f4a99)
 
 
+**Modelagem EcoSenac**
+
+![mod](https://github.com/livamaral/ecoSenac/assets/101746345/7c580fb8-51fb-49f7-8f1d-d4f9b6f7f27e)
+
+
 
 
 
