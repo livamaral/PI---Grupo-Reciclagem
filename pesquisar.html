@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/pesquisar.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                
+                <div class="logo">
+                    <img src="img/EcoSenacLogoCSS.png"/>
+                </div>
+
+                <div class="fundo">
+                    <img src="img/arvore_css.png"/>
+                </div>
+
+                    <div class="menu">
+                        <ul>
+                            <li><a href="">│ Pontos de Coleta │</a></li>
+                            <li><a href="">Dicas</a></li>
+                            <li><a href="">│ Sobre Nós │</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="menu2">
+                        <ul>
+                            <li><a href="">│ Conta </a></li>
+                        </ul>
+                    </div>
+            </div>
+        </main>  
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h1>Pesquise o ponto</h1>
+    
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+    
+            <div class="label-float">
+              <input type="text" id="nome" placeholder=" " required />
+              <label id="labelNome" for="nome">Digite  o endereço ou CEP aqui:</label>
+            </div>
+
+          </div>
+        <div class="card2">
+          <h1>PONTOS DE COLETA</h1>
+          <h2>Aqui você encontra o ponto de coleta mais próximo de você, além de ver todos  pontos cadastrados no nosso banco de dados.</h2>
+  
+          <p>
+            <button onclick="login()">CADASTRAR PONTO</button>
+            <button onclick="login()">VER LISTA</button>
+          </p>
+        </div>
+      </div>
+
+
+</body>
+</html>
