@@ -1,66 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nós</title>
-    <link rel="stylesheet" href="styleabout.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <div>
-            <img id="Logo" src="EcoSenacLogo 1.png" alt="Logo">
-        </div>
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="pontos-de-coleta.html">Pontos de coleta</a>
-            <a class="cabecalho__menu__link" href="dicas.html">Dicas</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre Nós</a>
-        </nav>
-        <div class="cabecalho__conta">
-            <img src="user 1.svg" alt="conta">
-            <a class="cabecalho__menu__link" href="conta.html">Conta</a>
-        </div>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSenac - Projeto de Sustentabilidade</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../EcoSenacLogo 1.png" alt="Logo EcoSenac" class="logo" />
+      <nav id="nav">
+        <ul>
+          <li><a href="#address">Pontos de Coleta</a></li>
+          <li><a href="#tips">Dicas</a></li>
+          <li><a href="#about">Sobre Nós</a></li>
+        </ul>
+      </nav>
+      <div class="login-option">
+        <i class="ph ph-user-circle"></i>
+        <p>
+          <a href="./login.html">Criar Conta</a>
+        </p>
+      </div>
     </header>
-    <main class="conteudo">
-        <section class="conteudo-parte1">
-            <h2 class="sobre-nos-titulo">Sobre Nós</h2>
-        </section>
-        <section class="conteudo-parte2">
-            <div class="coluna-esquerda">
-                <h3>EcoSenac Transformando Consciência em Ação</h3>
-                <p>A EcoSenac, fundada em 2023, é uma empresa dedicada à reciclagem e à promoção da conscientização ambiental. Nossa missão é proteger o meio ambiente e inspirar práticas sustentáveis através da reciclagem responsável e de programas educacionais. Junte-se a nós na jornada para um futuro mais verde e saudável.</p>
-            </div>
-            <div class="coluna-centro">
-                <h3>Nossa história</h3>
-                <p>Em 2023, um grupo de entusiastas ambientais e educadores uniu forças para fundar a EcoSenac, uma empresa dedicada à reciclagem e à promoção da conscientização ambiental. A motivação por trás da criação da EcoSenac foi o crescente preocupação com o meio ambiente e a necessidade de ações concretas para enfrentar os desafios da poluição e do desperdício.</p>
-            </div>
-            <div class="imagem-direita">
-                <img src="img1..jpeg" alt="grupo">
-            </div>
-        </section>
-        <section class="conteudo-parte3">
-            <div class="coluna-esquerda">
-                <h3>Missão</h3>
-                <p>A missão da EcoSenac é liderar pelo exemplo na preservação do meio ambiente e na promoção de práticas sustentáveis. Comprometemo-nos a reciclar de forma responsável, educar e inspirar a comunidade, e colaborar ativamente para construir um futuro mais limpo e saudável para as gerações presentes e futuras.</p>
-            </div>
-            <div class="coluna-centro">
-                <h3>Valores</h3>
-                <ul>
-                    <li>Sustentabilidade</li>
-                    <li>Educação</li>
-                    <li>Responsabilidade</li>
-                    <li>Colaboração</li>
-                    <li>Transparência</li>
-                    <li>Empoderamento</li>
-                    <li>Inovação</li>
-                </ul>
-            </div>
-            <div class="coluna-direita">
-                <h3>Visão</h3>
-                <p>A EcoSenac almeja um futuro onde a sustentabilidade seja parte essencial da vida de todos, liderando globalmente a promoção da responsabilidade ambiental. Nessa visão, a reciclagem seria universal, a educação ambiental empoderaria as futuras gerações e a responsabilidade de proteger o ambiente natural seria compartilhada por todos.</p>
-            </div>
-    </main>
-    
-</body>
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <div class="container-content">
+        <div class="content">
+          <h3 class="title title-description">
+            EcoSenac Transformando Consciência em Ação
+          </h3>
+          <p>
+            A EcoSenac, fundada em 2023, é uma empresa dedicada à reciclagem e à
+            promoção da conscientização ambiental.
+          </p>
+          <p>
+            Nossa missão é proteger o meio ambiente e inspirar práticas
+            sustentáveis através da reciclagem responsável e de programas
+            educacionais.
+          </p>
+          <p>Junte-se a nós na jornada para um futuro mais verde e saudável.</p>
+        </div>
+        <div class="content">
+          <h3 class="title history">Nossa História</h3>
+          <p>
+            Em 2023, um grupo de entusiastas ambientais e educadores uniu forças
+            para fundar a EcoSenac, uma empresa dedicada à reciclagem e à
+            promoção da conscientização ambiental. A motivação por trás da
+            criação da EcoSenac foi o crescente preocupação com o meio ambiente
+            e a necessidade de ações concretas para enfrentar os desafios da
+            poluição e do desperdício.
+          </p>
+        </div>
+        <div class="content content-img">
+          <img
+            class="lateral-img"
+            src="../img1.jpeg"
+            alt="Imagem lateral Reciclagem"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="pillars-company">
+      <div class="container-content pillars-content">
+        <div class="content">
+          <h3 class="pillars-title">Missão</h3>
+          <p>
+            A missão da EcoSenac é liderar pelo exemplo na preservação do meio
+            ambiente e na promoção de práticas sustentáveis. Comprometemo-nos a
+            reciclar de forma responsável, educar e inspirar a comunidade, e
+            colaborar ativamente para construir um futuro mais limpo e saudável
+            para as gerações presentes e futuras.
+          </p>
+        </div>
+        <div class="content">
+          <h3 class="pillars-title">Valores</h3>
+          <ul>
+            <li>Sustentabilidade</li>
+            <li>Educação</li>
+            <li>Responsabilidade</li>
+            <li>Colaboração</li>
+            <li>Transparência</li>
+            <li>Empoderamento</li>
+            <li>Inovação</li>
+          </ul>
+        </div>
+        <div class="content">
+          <h3 class="pillars-title">Visão</h3>
+          <p>
+            A EcoSenac almeja um futuro onde a sustentabilidade seja parte
+            essencial da vida de todos, liderando globalmente a promoção da
+            responsabilidade ambiental. Nessa visão, a reciclagem seria
+            universal, a educação ambiental empoderaria as futuras gerações e a
+            responsabilidade de proteger o ambiente natural seria compartilhada
+            por todos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
 </html>
