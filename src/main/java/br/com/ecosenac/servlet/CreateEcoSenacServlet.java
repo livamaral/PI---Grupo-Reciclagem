@@ -27,7 +27,7 @@ public class CreateEcoSenacServlet extends HttpServlet {
         User user = new User(userNome, userEmail, userSenha, userTelefone);
         new UserDao().createUser(user);
 
-        request.getRequestDispatcher("cadastro.html").forward(request, response);
+        request.getRequestDispatcher("login.html").forward(request, response);
     }
 
 }

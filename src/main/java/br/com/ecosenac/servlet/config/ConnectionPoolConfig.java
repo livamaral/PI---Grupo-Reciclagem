@@ -15,7 +15,7 @@ public class ConnectionPoolConfig {
     private static BasicDataSource getDataSource() {
         if (dataSource == null) {
             dataSource = new BasicDataSource();
-            dataSource.setUrl("jdbc:mysql://localhost:3306/ecosenac"); // Remova o ponto e vírgula do final
+            dataSource.setUrl("jdbc:mysql://localhost:3307/ecosenac"); // Remova o ponto e vírgula do final
             dataSource.setUsername(""); // Substitua pelo seu nome de usuário do MySQL
             dataSource.setPassword(""); // Substitua pela sua senha do MySQL
             dataSource.setMinIdle(5); // Número mínimo de conexões ociosas no pool
