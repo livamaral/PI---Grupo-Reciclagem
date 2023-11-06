@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/ecoSenac/src/main/webapp/assets/css/login.css">
+</head>
+<body>
+  <div id="Cabecalho">
+    <div>
+      <a href="index.html">
+      <img id="Logo" src="/ecoSenac/src/main/webapp/assets/img/EcoSenacLogo 1.png" alt="Logo">
+    </a>
+    </div>
+    <div id="Menu">
+      <span><a href="listaponto.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+    </div>
+    <div id="Conta"><img src="/ecoSenac/src/main/webapp/assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
+  </div>
+  </div>
+  </main>
+  </header>
+  <div class="container">
+    <div class="card">
+      <div class="logo2">
+        <img src="/ecoSenac/src/main/webapp/assets/img/EcoSenacLogoBrancaMenor.png" />
+      </div>
+
+      <div id="msgError"></div>
+
+      <div class="label-float">
+        <input type="text" id="usuario" paceholder="" required />
+        <label id="userLabel" for="usuario">Usuário</label>
+      </div>
+
+      <div class="label-float">
+        <input type="password" id="senha" paceholder="" required />
+        <label id="senhaLabel" for="senha">Senha</label>
+        <i class="fa fa-eye" aria-hidden="true"></i>
+      </div>
+
+      <p>
+        ESQUECI A SENHA
+        <button onclick="cadastrar()">Cadastre-se</button>
+
+        <button onclick="entrar()">Entrar</button>
+      </p>
+      <script>
+        function cadastrar() {
+          window.location.href = "cadastro.html"; 
+        }
+      </script>
+      
+    </div>
+
+    <div class="cardDois">
+      <div class="planeta">
+        <img src="/ecoSenac/src/main/webapp/assets/img/eco.png" />
+      </div>
+
+    </div>
+  </div>
+  </body>
+
+</html>
