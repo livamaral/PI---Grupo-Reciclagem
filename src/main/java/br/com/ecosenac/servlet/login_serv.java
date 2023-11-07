@@ -18,7 +18,7 @@ public class login_serv extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException, IOException {
 
-        req.getRequestDispatcher("index.jsp").forward(req, resp);
+        req.getRequestDispatcher("index.html").forward(req, resp);
 
     }
 
@@ -42,7 +42,7 @@ public class login_serv extends HttpServlet {
 
             req.setAttribute("message", "Invalid credentials!");
 
-            req.getRequestDispatcher("index.jsp").forward(req, resp);
+            req.getRequestDispatcher("index.html").forward(req, resp);
 
         }
 

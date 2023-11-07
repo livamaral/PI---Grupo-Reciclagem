@@ -19,9 +19,7 @@ public class UserDao {
 
         try {
 
-            Connection connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "sa");
-
-            System.out.println("success in database connection");
+            Connection connection = ConnectionPoolConfig.getConnection();
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
@@ -31,10 +29,6 @@ public class UserDao {
             preparedStatement.setString(4, user.getTelefone());
 
             preparedStatement.execute();
-
-            System.out.println("success in insert user");
-
-            connection.close();
 
         } catch (Exception e) {
 
@@ -59,13 +53,13 @@ public class UserDao {
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
-                String clienteNome = resultSet.getString("nome");
-                String clienteEmail = resultSet.getString("email");
-                String clienteSenha = resultSet.getString("senha");
-                String clienteTelefone = resultSet.getString("telefone");
-                String clienteId = resultSet.getString("clienteId");
+                String userNome = resultSet.getString("nome");
+                String userEmail = resultSet.getString("email");
+                String userSenha = resultSet.getString("senha");
+                String userTelefone = resultSet.getString("telefone");
+                String userId = resultSet.getString("Id");
 
-                user = new User(clienteNome, clienteEmail, clienteSenha, clienteTelefone);
+                user = new User(userNome, userEmail, userSenha, userTelefone, userId);
             }
 
             System.out.println("Sucesso na consulta ao cliente");

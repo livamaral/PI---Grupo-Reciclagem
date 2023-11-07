@@ -6,15 +6,17 @@ public class User {
     private String email;
     private String senha;
     private String telefone;
+    private String id;
 
     public User() {
     }
 
-    public User(String nome, String email, String senha, String telefone) {
+    public User(String nome, String email, String senha, String telefone, String id) {
         this.nome = nome;
         this.email = email;
         this.senha = senha;
         this.telefone = telefone;
+        this.id = id;
     }
 
     public User(String email, String senha) {
@@ -36,6 +38,10 @@ public class User {
 
     public String getSenha() {
         return senha;
+    }
+
+    public String getUserId() {
+        return id;
     }
 
 }
