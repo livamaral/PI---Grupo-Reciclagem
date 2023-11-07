@@ -17,7 +17,7 @@ public class ConnectionPoolConfig {
 
         if (dataSource == null) {
             dataSource = new BasicDataSource();
-            dataSource.setUrl("jdbc:h2:~/ecosenac");
+            dataSource.setUrl("jdbc:h2:~/test");
             dataSource.setUsername("sa");
             dataSource.setPassword("sa");
             dataSource.setMinIdle(5);   // Número mínimo de conexões ociosas no pool

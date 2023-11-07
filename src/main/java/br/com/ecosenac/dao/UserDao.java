@@ -23,7 +23,7 @@ public class UserDao {
 
             PreparedStatement preparedStatement = connection.prepareStatement(SQL);
 
-            preparedStatement.setString(1, user.getName());
+            preparedStatement.setString(1, user.getNome());
             preparedStatement.setString(2, user.getEmail());
             preparedStatement.setString(3, user.getSenha());
             preparedStatement.setString(4, user.getTelefone());

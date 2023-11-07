@@ -24,7 +24,7 @@ public class User {
         this.senha = senha;
     }
 
-    public String getName() {
+    public String getNome() {
         return nome;
     }
 

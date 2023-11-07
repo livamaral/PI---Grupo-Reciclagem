@@ -16,19 +16,18 @@ public class CreateEcoSenacServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        String userNome = request.getParameter("usernome");
-        String userEmail = request.getParameter("useremail");
-        String userSenha = request.getParameter("usersenha");
-        String userTelefone = request.getParameter("usertelefone");
-        String userId = request.getParameter("Id");
+        String usernome = request.getParameter("nome");
+        String userEmail = request.getParameter("email");
+        String userSenha = request.getParameter("senha");
+        String userTelefone = request.getParameter("telefone");
+        String userId = request.getParameter("userId");
 
         UserDao userDao = new UserDao();
-        User user = new User(userNome, userEmail, userSenha, userTelefone, userId);
+        User user = new User(userId, usernome, userEmail, userSenha, userTelefone);
 
 
-        if (userId == null || userId.trim().isEmpty()) {
+        if (userId == null || userId.isBlank()) {
             userDao.createUser(user);
-            ListClienteServlet.setId(user.getUserId());
         }
 
         response.sendRedirect("login.html");

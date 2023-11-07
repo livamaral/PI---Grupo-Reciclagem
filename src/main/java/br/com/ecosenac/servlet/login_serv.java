@@ -18,7 +18,7 @@ public class login_serv extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException, IOException {
 
-        req.getRequestDispatcher("index.html").forward(req, resp);
+        req.getRequestDispatcher("login.html").forward(req, resp);
 
     }
 
