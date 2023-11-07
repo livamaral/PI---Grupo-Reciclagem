@@ -23,7 +23,7 @@ public class CreateEcoSenacServlet extends HttpServlet {
         String userId = request.getParameter("userId");
 
         UserDao userDao = new UserDao();
-        User user = new User(userId, usernome, userEmail, userSenha, userTelefone);
+        User user = new User(usernome, userEmail, userSenha, userTelefone);
 
 
         if (userId == null || userId.isBlank()) {

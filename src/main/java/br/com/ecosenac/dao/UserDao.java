@@ -59,7 +59,7 @@ public class UserDao {
                 String userTelefone = resultSet.getString("telefone");
                 String userId = resultSet.getString("Id");
 
-                user = new User(userNome, userEmail, userSenha, userTelefone, userId);
+                user = new User(userNome, userEmail, userSenha, userTelefone);
             }
 
             System.out.println("Sucesso na consulta ao cliente");
