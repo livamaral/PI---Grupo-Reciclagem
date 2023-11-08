@@ -1,0 +1,11 @@
+create database ecosenac;
+
+use ecosenac;
+
+    CREATE TABLE USUARIO(
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    NOME VARCHAR(255),
+    EMAIL VARCHAR(255),
+    SENHA VARCHAR(255),
+    TELEFONE VARCHAR(255)
+    );
