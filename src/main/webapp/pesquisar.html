@@ -16,7 +16,7 @@
     </a>
     </div>
     <div id="Menu">
-      <span><a href="listaponto.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+      <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
     </div>
     <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
   </div>
@@ -42,13 +42,17 @@
           <h2>Aqui você encontra o ponto de coleta mais próximo de você, além de ver todos  pontos cadastrados no nosso banco de dados.</h2>
   
           <p>
-            <button onclick="login()">CADASTRAR PONTO</button>
+            <button onclick="cadastrarPonto()">CADASTRAR PONTO</button>
             <button onclick="login()">VER LISTA</button>
           </p>
           
         </div>
       </div>
 
-
+  <script>
+      function cadastrarPonto() {
+          window.location.href = "cadastro_pontos.html";
+      }
+  </script>
 </body>
 </html>
