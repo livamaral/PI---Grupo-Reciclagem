@@ -16,7 +16,7 @@
     </a>
     </div>
     <div id="Menu">
-      <span><a href="listaponto.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+      <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
     </div>
     <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
   </div>
@@ -30,25 +30,34 @@
     
             <div id="msgError"></div>
             <div id="msgSuccess"></div>
-    
-            <div class="label-float">
-              <input type="text" id="nome" placeholder=" " required />
-              <label id="labelNome" for="nome">Digite  o endereço ou CEP aqui:</label>
+
+            <div class="dropdown" id="myDropdown">
+                <button class="dropbtn">Selecione o Local</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="changeTextAndClose(this)">R. Brasílio Luz - Santo Amaro, São Paulo - SP</a>
+                    <a href="#" onclick="changeTextAndClose(this)">R. Cap. Gabriel - Centro, Guarulhos - SP</a>
+                    <a href="#" onclick="changeTextAndClose(this)">Av. Eng. Eusébio Stevaux - Jurubatuba, São Paulo - SP</a>
+                    <a href="#" onclick="changeTextAndClose(this)">Av. São Gabriel - Jardim Paulista, São Paulo - SP</a>
+                </div>
             </div>
+            <script src="assets/js/scriptMenu.js"></script>
 
           </div>
         <div class="card2">
+            <div class="logo2">
+                <img src="assets/img/EcoSenacLogoBrancaMenor.png"/>
+            </div>
           <h1>PONTOS DE COLETA</h1>
-          <h2>Aqui você encontra o ponto de coleta mais próximo de você, além de ver todos  pontos cadastrados no nosso banco de dados.</h2>
-  
-          <p>
-            <button onclick="login()">CADASTRAR PONTO</button>
-            <button onclick="login()">VER LISTA</button>
-          </p>
+          <h2>Aqui você encontra o ponto de coleta mais próximo de você!</h2>
+
           
         </div>
       </div>
 
-
+  <script>
+      function cadastrarPonto() {
+          window.location.href = "cadastro_pontos.html";
+      }
+  </script>
 </body>
 </html>
