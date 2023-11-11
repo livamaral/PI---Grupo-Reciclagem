@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="assets/css/login.css">
 </head>
+
 <body>
   <div id="Cabecalho">
     <div>
       <a href="index.html">
         <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-    </a>
+      </a>
     </div>
     <div id="Menu">
       <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
@@ -28,30 +30,32 @@
       </div>
 
       <div id="msgError"></div>
+      <form action="/login" method="post">
 
-      <div class="label-float">
-        <input type="text" id="usuario" paceholder="" required />
-        <label id="userLabel" for="usuario">Usuário</label>
-      </div>
+        <div class="label-float">
+          <input type="text" id="usuario" name="email" placeholder="" required />
+          <label id="userLabel" for="usuario">Usuário</label>
+        </div>
 
-      <div class="label-float">
-        <input type="password" id="senha" paceholder="" required />
-        <label id="senhaLabel" for="senha">Senha</label>
-        <i class="fa fa-eye" aria-hidden="true"></i>
-      </div>
+        <div class="label-float">
+          <input type="password" id="senha" name="senha" placeholder="" required />
+          <label id="senhaLabel" for="senha">Senha</label>
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
 
-      <p>
-        ESQUECI A SENHA
-        <button onclick="cadastrar()">Cadastre-se</button>
+        <p>
+          ESQUECI A SENHA
+          <button onclick="cadastrar()">Cadastre-se</button>
 
-        <button onclick="entrar()">Entrar</button>
-      </p>
+          <button onclick="entrar()">Entrar</button>
+        </p>
+      </form>
       <script>
         function cadastrar() {
-          window.location.href = "cadastro.html"; 
+          window.location.href = "cadastro.html";
         }
       </script>
-      
+
     </div>
 
     <div class="cardDois">
@@ -61,6 +65,6 @@
 
     </div>
   </div>
-  </body>
+</body>
 
 </html>
