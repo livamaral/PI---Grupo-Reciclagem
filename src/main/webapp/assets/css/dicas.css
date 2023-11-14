@@ -1,0 +1,237 @@
+body{
+    background-color: #FFF6F0;
+    margin: 0px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  
+  #Cabecalho {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    place-content: space-between;
+    gap: 10px;
+  }
+  
+  #Logo {
+    padding: 5px;
+  }
+  
+  #Menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+  #Menu a {
+    text-decoration: none;
+    color: #466441;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    padding: 20px;
+  }
+  #Conta {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: 24px;
+    align-content: center;
+  }
+  #Conta a {
+    text-decoration: none;
+    color: #466441;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 10px;
+    padding-right: 20px;
+  }
+
+.card1{
+    background-color: #98C98F;
+    height: 1300px;
+    margin-top: 0px;
+    
+    
+}
+
+.card1 h1{
+    font-size: 400px;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 200px;
+    margin-top: 0%;
+    color: #086A35;
+}
+
+.card1 h2{
+    font-size: 120px;
+    margin-top: 0px; /* Aumenta a margem superior do título para mover o texto para baixo */
+    font-family: 'Russo One', sans-serif;
+    margin-left: 200px;
+    margin-bottom: 800px;
+
+}
+
+#garoto{
+    float: right; /* Faz com que a imagem flutue à direita */
+    margin-right: 350px;
+    margin-left: 100px;
+    margin-bottom: 250px;
+    height: 1000px;
+    width: 1000px;
+    margin-top: 250px;
+}
+
+
+.card2{
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 32px;
+    margin: 100px auto; /* Adiciona 100px de margem acima e abaixo e margem automática à esquerda e à direita */
+    padding: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+
+}
+
+.card2 h1{
+    font-size: 250px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #086A35;
+
+}
+
+.card3 h1{
+    font-size: 74px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #086A35;
+}
+
+.card3 h2{
+    font-size: 42px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+#separando{
+   margin-left: 500px;
+
+}
+
+.card4 h1{
+    font-size: 74px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #086A35;
+}
+
+.card4 h2{
+    font-size: 42px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+#cores{
+   margin-left: 500px;
+   margin-top: 400px;
+
+}
+
+.card5 h1{
+    font-size: 74px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #086A35;
+}
+
+.card5 h2{
+    font-size: 42px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+#maca{
+   margin-left: 500px;
+   margin-top: 400px;
+
+}
+
+.card6 h1{
+    font-size: 74px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #086A35;
+}
+
+.card6 h2{
+    font-size: 42px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #000000;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+
+#floresta{
+   margin-left: 500px;
+   margin-top: 400px;
+
+}
+
+.card7 {
+    clear: both; /* Garante que a div .valores não seja afetada por outros elementos flutuantes */
+}
+
+.card7 img {
+    float: left; /* Faz com que a imagem flutue à esquerda */
+    margin-right: 650px; /* Adiciona um espaço entre a imagem e o texto */
+    margin-bottom: 250px;
+
+}
+
+.card7 h1{
+    font-size: 150px; 
+    font-family: 'Russo One', sans-serif;
+    margin-top: 700px;
+    color:#086A35;
+}
+
+.card7 h2{
+    font-size: 44px; 
+    font-family: sans-serif;
+    margin-top: 100px;
+    color:#000000;
+}
+
+
+.card7 h1, .card7 h2 {
+    margin-left: 20px; /* Adiciona um espaço à esquerda do texto para alinhar com a imagem */
+    margin-right: 100px;
+}
+
+.card7{
+    background-color: #baddb4;
+    height: 800px;
+    margin-top: 0px;
+}

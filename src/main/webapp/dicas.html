@@ -1,70 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EcoSenac</title>
-  <link rel="stylesheet" href="assets/css/styleDicas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Senac</title>
+    <!--GOOGLE FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <!--FIM GOOGLE FONTES-->
+    <link rel="stylesheet" href="assets/css/dicas.css">
+    <script src="js/index.js"></script>
+    
 </head>
+<body class="body">
+    <header>
+        <div id="Cabecalho">
+            <div>
+              <a href="index.html">
+              <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+            </a>
+            </div>
+            <div id="Menu">
+              <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+            </div>
+            <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
+          </div>
 
-<body>
-  <div id="Cabecalho">
-    <div>
-      <a href="index.html">
-      <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-    </a>
-    </div>
-    <div id="Menu">
-      <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
-    </div>
-    <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
-  </div>
-  <div id="Fundo">
-    <h1 id="Topico">Algumas dicas ecólogicas</h1>
-    <div id="Reciclagem">
-      <img src="assets/img/31277646_2121572804549605_586847903075532800_n.jpg" alt="Reciclagem">
-      <p> 1. Cuide bem do seu lixo. Nunca jogue lixo no chão, importando- se sempre com a destino adequado dele. Separar o lixo reciclável é importante para diminuir a quantidade de lixo nas grandes cidades.
+        <div class="dicas">
+            <img id="garoto" src="assets/img/garoto.png" alt="garoto">
+            <div class="card1">
+                <h1 class="comeco">DICAS</h1>   
+                <h2 class="comeco2" >
+                    <p>VEM APRENDER </p> 
+                    <p>COM A GENTE</p>
+                </h2>
+            </div>
 
-        <br><br>2. Nunca coloque lixo em rios, lagos e outros ambientes aquáticos e, principalmente, preserve a mata em volta desses Locais, essa mata protege contra erosão e assoreamento.
+            <div class="card2">
+                <h2>Mais do que nunca é hora de pensar em formas sustentáveis e conscientes para um futuro melhor. Afinal, o planeta, assim nós, fica bem mais bonito em equilíbrio. Mas sabemos bem que cuidar dele e do nosso ambiente, da nossa casa, bairro, cidade e país vai muito além de um dia. É uma tarefa diária. Vamos te dar algumas dicas de reciclagem práticas e nada complexas. Com medidas simples, é possível ter uma vida com impactos menos agressivos à natureza.</h2>
+                <h2>Ainda existem muitos desafios a serem vencidos quando falamos de reciclagem no Brasil. Isso porque nosso país recicla menos de 4% de todo o lixo que é produzido em seu território. Essa baixa porcentagem tem alguns fatores importantes para ser justificada. Primeiramente, nós ainda não desenvolvemos tanto o hábito de separar o lixo, por exemplo.</h2>
+                <h1>VEJA A BAIXO 4 DICAS</h1>
+            </div>
 
-        <br> <br>3. Reduza o consumo de energia elétrica. Evite o consumo exagerado, lembrando-se sempre de deixar aparelhos desligados quando não estiveram sendo usados e apagar as
-        luzes que estão iluminando ambientes desnecessários.
+            <div class="card3">
+                <img id="separando" src="assets/img/separando.png" alt="separando">
+                <h1>01 - SEPARE OS RESÍDUOS</h1>
+                <h2>Separar o que não é possível de ser reciclado do que é, garante com que o processo funcione de forma mais facilitada para todos. Por isso, não se esqueça de sempre lavar os recipientes de plástico, metal e vidro ao descartá-los. Uma dica: em tempos de home office, tenha sempre uma lixeirinha perto de onde você trabalha para jogar fora os papéis que não são mais necessários.</h2>
+                <h2>Descubra se a coleta seletiva passa recolhendo o lixo reciclável na sua rua. Se passar, você pode fazer a diferença e conscientizar os moradores do seu prédio sobre o descarte correto das embalagens. Por exemplo: coloque folhetos mostrando quais objetos podem ir naquele lixo do corredor.</h2>
+            </div>
 
-        <br> <br>4. Reutilize, reaproveite e recicle tudo que for possível. Caixas e plásticos, por exemplo, podem ser utilizados para acondicionar alguns objetos. Roupas que você não utiliza mais podem ser doadas.
-      </p>
-    </div>
-    <div id="Proteger">
-      <p>
-        Proteger o meio ambiente é tarefa para todos nós, independentemente de nossa idade. Ajudar é fundamental para que as próximas gerações possam usufruir de tudo o que nosso planeta oferece, tendo acesso a um ar puro, água limpa e à variedade de espécies que aqui vivem.
+            <div class="card4">
+                <img id="cores" src="assets/img/cores.png" alt="cores">
+                <h1>02 - ORGÂNICO E INORGÂNICO</h1>
+                <h2>Os resíduos podem ser divididos em dois tipos: lixo orgânico e lixo inorgânico1. A diferença entre esses dois tipos de lixo está em sua origem. O lixo orgânico é proveniente de materiais animais ou vegetais, enquanto o lixo inorgânico existe por meio das transformações feitas pelos ser humano, principalmente no que se refere a produção desses componentes, como alumínio, vidro e metais. Os contentores para lixo são divididos por cores, os quais indicam o tipo de lixo a ser depositado</h2>
+                </div>
 
-        <br>As soluções em Meio Ambiente favorecem a Regeneração Global ao promover iniciativas que contribuem para a preservação de ecossistemas e a redução do impacto provocado pela atividade humana, áreas verdes e desenvolvimento de cidades sustentáveis, integradas ao meio ambiente.
+            <div class="card5">
+                <img id="maca" src="assets/img/maça.png" alt="maca">
+                <h1>03 - APROVEITE O QUE PUDER</h1>
+                <h2>Plásticos mais resistentes e embalagens de vidro podem ter sua vida útil prolongada dentro da sua própria casa. Sabe aquele copo de vidro do purê de tomate que tempera sua massa? Ele pode se transformar em um porta-canetas, porta-vela e o que mais você quiser guardar ou expor nele.</h2>
+                <h2>As famosas garrafas plásticas podem se tornar vasinhos para suas plantas. Pois bem, elas são muito úteis na hora de plantar mudinhas ou para dar um start na sua hortinha. Aplicando um novo uso a esses objetos, você evita com que ele sejam descartados diretamente em rios, lagoas, locais inadequados e demorem muitos anos para se decompor.</h2>
+            </div>
 
-        <br>
-      <p id="Button">Repasse as dicas!</p><br>
+            <div class="card6">
+                <img id="floresta" src="assets/img/floresta.png" alt="floresta">
+                <h1>04 - ENCONTRE UM PONTO DE COLETA</h1>
+                <h2>Depois de você separa os resíduos é hora de destinar para onde ele irar, é por isso que nós criamos a EcoSenac, para conectarmos toda uma comunidade que se preocupa para onde o lixo vai impactar.</h2>
+                <h2>Aqui na EcoSenac você se conectar com o ponto de coleta mais próximo de você e ir até ele para fazer parte dessa comunidade. É simples, em nossa pagina de pesquisar ponto, você pesquisa e encontra o pontos de coletas que estão cadastrados em nosso sistema mais próximo de você!</h2>
+                
+            </div>
 
-      Espalhar o conhecimento sobre como cuidar da natureza ajuda a formar cidadãos mais preocupados com o meio ambiente. Que tal fazer sua parte e repassar essas ideias?
+            <div class="card7">
+                <img id="dupla" src="assets/img/dupla.png" alt="dupla">
+                <h1>COMPARTILHE COM AMIGOS</h1>
+                <h2>Não esqueça que a informação é nossa maior aliada nessa jornada, quando você leva a informação para mais pessoas a nossa chance de cuidar do nosso planeta só aumentam. </h2>
 
-      Mais informações: <a href="https://www.infraestruturameioambiente.sp.gov.br/ipa/">https://www.infraestruturameioambiente.sp.gov.br/ipa/</a>
-      </p>
-    </div>
-    <div id="SaibaMais">
-      <div>
-        <p>
-          <strong>SAIBA MAIS SOBRE OS LOCAIS DE COLETA: #ZONASUL</strong>
+            /</div>
 
-          <br><br>Ficou na dúvida se aquele produto ou embalagem será reaproveitada? Descarte sempre no reciclávell
+        </div>
 
-          <br><br>O máximo que vai acontecer é o resíduo ser considerado rejeito nas esteiras das cooperativas do Programa Socioambiental de Coleta Seletiva da Prefeitura de SP ou nas Centrais Mecanizadas de Triagem da Loga e da EcoUrbis.
-
-          <br><br>Portanto, o ideal é sempre ficar por dentro sobre o que é reciclável na prática, não apenas em teoria. Ou seja, a dica é pesquisar já há tecnologia para o reaproveitamento do material em larga escala e se há interesse do mercado na sua reciclagem.
-        </p>
-      </div>
-      <div>
-        <img src="assets/img/download (8).png" alt="Globo">
-      </div>
-    </div>
-  </div>
+    </header>
 </body>
-
 </html>

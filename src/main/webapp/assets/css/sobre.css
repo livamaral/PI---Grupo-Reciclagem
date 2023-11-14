@@ -1,0 +1,157 @@
+body{
+    background-color: #FFF6F0;
+    margin: 0px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  
+  #Cabecalho {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    place-content: space-between;
+    gap: 10px;
+  }
+  
+  #Logo {
+    padding: 5px;
+  }
+  
+  #Menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
+  #Menu a {
+    text-decoration: none;
+    color: #466441;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    padding: 20px;
+  }
+  #Conta {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: 24px;
+    align-content: center;
+  }
+  #Conta a {
+    text-decoration: none;
+    color: #466441;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 10px;
+    padding-right: 20px;
+  }
+
+
+h1 {
+    text-align: center;
+    margin-left: 350px; /* Adiciona 20px de margem em todos os lados */
+    margin-right: 350px;
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 42px;
+
+}
+
+h2{
+    text-align: center;
+    margin-left: 350px; /* Adiciona 20px de margem em todos os lados */
+    margin-right: 350px;
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 42px;
+}
+
+#nos{
+    margin-left: 500px;
+   
+}
+
+.nossahistoria{
+    background-color: #98C98F;
+    height: 700px;
+}
+
+.nossahistoria h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: #000000;
+    font-family: 'Russo One', sans-serif;
+    font-size: 82px;
+    margin: 100px auto; /* Adiciona 100px de margem acima e abaixo e margem automática à esquerda e à direita */
+    padding: 60px;
+}
+
+.missao {
+    clear: both; /* Garante que a div .missao não seja afetada por outros elementos flutuantes */
+}
+
+.missao img {
+    float: left; /* Faz com que a imagem flutue à esquerda */
+    margin-right: 450px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+.missao h1 {
+    font-size: 82px;
+    margin-top: 300px; /* Aumenta a margem superior do título para mover o texto para baixo */
+    font-family: 'Russo One', sans-serif;
+}
+
+.missao h2 {
+    margin-left: 20px; /* Adiciona um espaço à esquerda do texto para alinhar com a imagem */
+    margin-top: 40px; /* Aumenta a margem superior do texto para mover o texto para baixo */
+}
+
+
+
+.visao {
+    clear: both; /* Garante que a div .visao não seja afetada por outros elementos flutuantes */
+}
+
+.visao img {
+    float: right; /* Faz com que a imagem flutue à direita */
+    margin-left: 450px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+.visao h1{
+    font-size: 82px; 
+    font-family: 'Russo One', sans-serif; 
+    margin-top: 500px;
+}
+
+.visao h1, .visao h2 {
+    margin-right: 100px; /* Adiciona um espaço à direita do texto para alinhar com a imagem */
+}
+
+.valores {
+    clear: both; /* Garante que a div .valores não seja afetada por outros elementos flutuantes */
+}
+
+.valores img {
+    float: left; /* Faz com que a imagem flutue à esquerda */
+    margin-right: 650px; /* Adiciona um espaço entre a imagem e o texto */
+    margin-bottom: 250px;
+}
+
+.valores h1{
+    font-size: 82px; 
+    font-family: 'Russo One', sans-serif;
+    margin-top: 500px;
+}
+
+.valores h1, .valores h2 {
+    margin-left: 20px; /* Adiciona um espaço à esquerda do texto para alinhar com a imagem */
+}
+
+.valores p {
+    margin: 10px 0; /* Adiciona espaçamento entre os parágrafos dentro do h2 */
+}
+
