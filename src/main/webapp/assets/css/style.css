@@ -4,7 +4,7 @@
 }
 body {
   background: color #fff6f0;
-  margin: 0px;
+  margin: 0;
 }
 img {
   max-width: 100%;
@@ -54,6 +54,13 @@ img {
   padding-right: 20px;
 }
 
+#meio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #PontoColeta a {
   display: grid;
   grid-template-columns: repeat();
@@ -64,6 +71,8 @@ img {
 #ListaPontos {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+  margin: auto;
+  padding: 0;
 }
 
 #ListaPontos a {
@@ -84,6 +93,8 @@ img {
 }
 #ListaPontos img {
   grid-row: 1 / 3;
+  max-width: 100%;
+  margin: 0;
 }
 
 #Diferente {
@@ -93,6 +104,7 @@ img {
 #SobreNos {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: auto;
 }
 
 #SobreNos a {
@@ -110,6 +122,9 @@ img {
   background: #98c98f;
   margin: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  max-width: 700px;
+  max-height: 400px;
+  margin-left: 200px;
 }
 
 #Lixo {
