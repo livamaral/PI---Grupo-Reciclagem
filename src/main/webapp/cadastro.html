@@ -28,7 +28,7 @@
         <div id="msgError"></div>
         <div id="msgSuccess"></div>
 
-        <form action="/create-ecosenac" method="POST">
+        <form action="/create-ecosenac" method="POST" onsubmit="return validarFormulario()">
             <div class="label-float">
                 <input type="text" id="nome" name="nome" placeholder=" " required />
                 <label id="labelNome" for="nome">Nome</label>
@@ -52,9 +52,8 @@
 
             <div class="justify-center">
                 <button type="submit" class="botao">Cadastrar</button>
-                <div id="msgSuccess"></div>
             </div>
-        </form> <!-- Formulário termina aqui -->
+        </form>
     </div>
 
     <div class="card2">
@@ -70,6 +69,23 @@
     <script>
         function logar() {
             window.location.href = "login.html";
+        }
+
+        function validarFormulario() {
+
+            var formularioValido = true;
+
+            if (formularioValido) {
+                mostrarAlerta();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function mostrarAlerta() {
+            alert("Usuário Cadastrado com Sucesso!");
+            window.location.href = "cadastro.html";
         }
     </script>
 </div>
