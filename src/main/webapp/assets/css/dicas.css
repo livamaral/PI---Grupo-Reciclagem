@@ -51,57 +51,55 @@ body{
     padding-right: 20px;
   }
 
-.card1{
+  .card1 {
     background-color: #98C98F;
-    height: 1300px;
+    height: 900px;
     margin-top: 0px;
-    
-    
 }
 
-.card1 h1{
-    font-size: 400px;
+.card1 h1 {
+    font-size: 200px;
     font-family: 'Russo One', sans-serif;
     margin-left: 200px;
     margin-top: 0%;
     color: #086A35;
+    padding-top: 170px;
 }
 
-.card1 h2{
-    font-size: 120px;
-    margin-top: 0px; /* Aumenta a margem superior do título para mover o texto para baixo */
+.card1 h2 {
+    font-size: 80px;
+    margin-top: 0px;
     font-family: 'Russo One', sans-serif;
     margin-left: 200px;
-    margin-bottom: 800px;
-
 }
 
-#garoto{
-    float: right; /* Faz com que a imagem flutue à direita */
-    margin-right: 350px;
-    margin-left: 100px;
+#garoto {
+    float: left; /* Agora, a imagem flutuará à esquerda */
+    margin-left: 100px; /* Adiciona um espaço entre a imagem e o texto para 100px */
+    margin-right: 100px;
     margin-bottom: 250px;
-    height: 1000px;
-    width: 1000px;
+    height: 600px;
+    width: 600px;
     margin-top: 250px;
 }
+
 
 
 .card2{
     text-align: center; /* Centraliza o texto horizontalmente */
     color: #000000;
     font-family: sans-serif;
-    font-size: 32px;
+    font-size: 18px;
     margin: 100px auto; /* Adiciona 100px de margem acima e abaixo e margem automática à esquerda e à direita */
     padding: 60px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 100px;
 
 }
 
 .card2 h1{
-    font-size: 250px;
+    font-size: 150px;
     font-family: 'Russo One', sans-serif;
     text-align: center;
     color: #086A35;
@@ -116,17 +114,18 @@ body{
 }
 
 .card3 h2{
-    font-size: 42px;
+    font-size: 30px;
     font-family: sans-serif;
     text-align: center;
     color: #000000;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 100px;
 }
 
 #separando{
-   margin-left: 500px;
+   margin-left: 280px;
+   height: 300px;
 
 }
 
@@ -138,18 +137,18 @@ body{
 }
 
 .card4 h2{
-    font-size: 42px;
+    font-size: 22px;
     font-family: sans-serif;
     text-align: center;
     color: #000000;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 100px;
 }
 
 #cores{
-   margin-left: 500px;
-   margin-top: 400px;
+    margin-left: 380px;
+    height: 300px;
 
 }
 
@@ -161,18 +160,18 @@ body{
 }
 
 .card5 h2{
-    font-size: 42px;
+    font-size: 22px;
     font-family: sans-serif;
     text-align: center;
     color: #000000;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 100px;
 }
 
 #maca{
-   margin-left: 500px;
-   margin-top: 400px;
+    margin-left: 280px;
+    height: 300px;
 
 }
 
@@ -184,19 +183,18 @@ body{
 }
 
 .card6 h2{
-    font-size: 42px;
+    font-size: 22px;
     font-family: sans-serif;
     text-align: center;
     color: #000000;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 100px;
 }
 
 #floresta{
-   margin-left: 500px;
-   margin-top: 400px;
-
+    margin-left: 280px;
+    height: 300px;
 }
 
 .card7 {
