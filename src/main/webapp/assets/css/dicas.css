@@ -1,12 +1,14 @@
 body{
     background-color: #FFF6F0;
     margin: 0px;
+    width: 100%;
+    min-height: 100vh;
   }
 
   img {
     max-width: 100%;
   }
-  
+
   #Cabecalho {
     background-color: white;
     background-repeat: no-repeat;
@@ -124,7 +126,7 @@ body{
 }
 
 #separando{
-   margin-left: 280px;
+   margin-left: 400px;
    height: 300px;
 
 }
@@ -147,7 +149,7 @@ body{
 }
 
 #cores{
-    margin-left: 380px;
+    margin-left: 400px;
     height: 300px;
 
 }
@@ -170,7 +172,7 @@ body{
 }
 
 #maca{
-    margin-left: 280px;
+    margin-left: 400px;
     height: 300px;
 
 }
@@ -193,7 +195,7 @@ body{
 }
 
 #floresta{
-    margin-left: 280px;
+    margin-left: 400px;
     height: 300px;
 }
 
@@ -209,27 +211,22 @@ body{
 }
 
 .card7 h1{
-    font-size: 150px; 
+    font-size: 120px;
     font-family: 'Russo One', sans-serif;
     margin-top: 700px;
     color:#086A35;
 }
 
 .card7 h2{
-    font-size: 44px; 
+    font-size: 30px;
     font-family: sans-serif;
     margin-top: 100px;
     color:#000000;
 }
 
 
-.card7 h1, .card7 h2 {
+.card7 h1,h2 {
     margin-left: 20px; /* Adiciona um espaço à esquerda do texto para alinhar com a imagem */
     margin-right: 100px;
 }
 
-.card7{
-    background-color: #baddb4;
-    height: 800px;
-    margin-top: 0px;
-}
