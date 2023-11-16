@@ -1,0 +1,160 @@
+body{
+    background-color: #FFF6F0;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#Cabecalho {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    place-content: space-between;
+    gap: 10px;
+}
+
+#Logo {
+    padding: 5px;
+}
+
+#Menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+
+#Menu a {
+    text-decoration: none;
+    color: #466441;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    padding: 20px;
+}
+
+#Conta {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: 24px;
+    align-content: center;
+}
+
+#Conta a {
+    text-decoration: none;
+    color: #466441;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 42px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    color: #000000;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 42px;
+}
+
+#nos {
+    height: 700px;
+    margin-left: 200px;
+}
+
+.nossahistoria {
+    background-color: #98C98F;
+    height: 900px;
+}
+
+.nossahistoria h1 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Russo One', sans-serif;
+    font-size: 82px;
+    margin: 100px auto;
+    padding-top: 50px;
+}
+
+.missao {
+    clear: both;
+    padding-top: 50px;
+}
+
+.missao img {
+    float: left;
+    margin-right: 20px;
+    padding-top: 150px;
+}
+
+.missao h1 {
+    font-size: 82px;
+    margin-top: 150px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.missao h2 {
+    margin-left: 700px;
+    margin-top: 0;
+}
+
+.visao {
+    clear: both;
+}
+
+.visao img {
+    float: right;
+    margin-right: 20px;
+    height: 500px;
+}
+
+.visao h1 {
+    font-size: 82px;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 500px;
+}
+
+.visao h1, .visao h2 {
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.valores {
+    clear: both;
+}
+
+.valores img {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 250px;
+    height: 600px;
+}
+
+.valores h1 {
+    font-size: 82px;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 500px;
+}
+
+.valores h1, .valores h2 {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.valores p {
+    margin: 10px 0;
+}

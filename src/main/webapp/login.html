@@ -9,62 +9,62 @@
 </head>
 
 <body>
-  <div id="Cabecalho">
-    <div>
-      <a href="index.html">
-        <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-      </a>
-    </div>
-    <div id="Menu">
-      <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
-    </div>
-    <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
+<div id="Cabecalho">
+  <div>
+    <a href="index.html">
+      <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+    </a>
   </div>
+  <div id="Menu">
+    <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
   </div>
-  </main>
-  </header>
-  <div class="container">
-    <div class="card">
-      <div class="logo2">
-        <img src="assets/img/EcoSenacLogoBrancaMenor.png" />
+  <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
+</div>
+</div>
+</main>
+</header>
+<div class="container">
+  <div class="card">
+    <div class="logo2">
+      <img src="assets/img/EcoSenacLogoBrancaMenor.png" />
+    </div>
+
+    <div id="msgError"></div>
+    <form action="/login" method="post">
+
+      <div class="label-float">
+        <input type="text" id="usuario" name="email" placeholder="" required />
+        <label id="userLabel" for="usuario">Usuário</label>
       </div>
 
-      <div id="msgError"></div>
-      <form action="/login" method="post">
-
-        <div class="label-float">
-          <input type="text" id="usuario" name="email" placeholder="" required />
-          <label id="userLabel" for="usuario">Usuário</label>
-        </div>
-
-        <div class="label-float">
-          <input type="password" id="senha" name="senha" placeholder="" required />
-          <label id="senhaLabel" for="senha">Senha</label>
-          <i class="fa fa-eye" aria-hidden="true"></i>
-        </div>
-
-        <p>
-          ESQUECI A SENHA
-          <button onclick="cadastrar()">Cadastre-se</button>
-
-          <button onclick="entrar()">Entrar</button>
-        </p>
-      </form>
-      <script>
-        function cadastrar() {
-          window.location.href = "cadastro.html";
-        }
-      </script>
-
-    </div>
-
-    <div class="cardDois">
-      <div class="planeta">
-        <img src="assets/img/eco.png" />
+      <div class="label-float">
+        <input type="password" id="senha" name="senha" placeholder="" required />
+        <label id="senhaLabel" for="senha">Senha</label>
+        <i class="fa fa-eye" aria-hidden="true"></i>
       </div>
 
-    </div>
+      <p>
+        ESQUECI A SENHA
+        <button onclick="cadastrar()">Cadastre-se</button>
+
+        <button onclick="entrar()">Entrar</button>
+      </p>
+    </form>
+    <script>
+      function cadastrar() {
+        window.location.href = "cadastro.html";
+      }
+    </script>
+
   </div>
+
+  <div class="cardDois">
+    <div class="planeta">
+      <img src="assets/img/eco.png" />
+    </div>
+
+  </div>
+</div>
 </body>
 
 </html>

@@ -30,6 +30,6 @@ public class CreateEcoSenacServlet extends HttpServlet {
             userDao.createUser(user);
         }
 
-        response.sendRedirect("login.html");
+        response.sendRedirect("cadastro.html");
     }
 }
