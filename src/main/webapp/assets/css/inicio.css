@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "League Spartan";
+  src: url(css/LeagueSpartan-VariableFont_wght.ttf);
+}
+body {
+  background: color #fff6f0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+#Cabecalho {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  place-content: space-between;
+  gap: 10px;
+}
+
+#Logo {
+  padding: 5px;
+}
+
+#Menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+}
+#Menu a {
+  text-decoration: none;
+  color: #466441;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  padding: 20px;
+}
+#Conta {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-template-rows: 24px;
+  align-content: center;
+}
+#Conta a {
+  text-decoration: none;
+  color: #466441;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  margin-left: 10px;
+  padding-right: 20px;
+}
+
+#meio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#PontoColeta a {
+  display: grid;
+  grid-template-columns: repeat();
+  justify-content: center;
+  align-content: center;
+}
+
+#ListaPontos {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin: auto;
+  padding: 0;
+}
+
+#ListaPontos a {
+  flex-shrink: 0;
+  color: #fffbfb;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  background: #98c98f;
+  box-shadow: 5px 7px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  line-height: 2;
+  margin: 30px;
+  overflow: hidden;
+  transition: transform 0.25s;
+}
+
+#ListaPontos a:hover {
+  transform: scale(1.2); /* aumenta a escala da imagem em 20% */
+}
+#ListaPontos img {
+  grid-row: 1 / 3;
+  max-width: 100%;
+  margin: 0;
+}
+
+#Diferente {
+  grid-row: 1/3;
+}
+
+#SobreNos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+#SobreNos p {
+  text-align: center;
+  font-family: League Spartan;
+  text-decoration: none;
+  flex-shrink: 0;
+  color: #fffbfb;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  padding-top: 50px;
+  border-radius: 40px;
+  background: #98c98f;
+  margin: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  max-width: 500px;
+  max-height: 500px;
+  margin-left: 200px;
+}
+
+#Lixo {
+  display: grid;
+  grid-template-columns: repeat();
+  justify-content: center;
+  align-content: center;
+}
+
+#Dicas {
+  display: grid;
+  grid-template-columns: repeat();
+  justify-content: center;
+  align-content: center;
+}
