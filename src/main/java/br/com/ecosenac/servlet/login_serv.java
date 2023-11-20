@@ -36,7 +36,7 @@ public class login_serv extends HttpServlet {
 
             req.getSession().setAttribute("loggedUser", email);
 
-            resp.sendRedirect("index.html");
+            resp.sendRedirect("cadastroPontos.html");
 
         } else {
 

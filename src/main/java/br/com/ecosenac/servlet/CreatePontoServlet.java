@@ -30,6 +30,6 @@ public class CreatePontoServlet extends HttpServlet {
             pontoDao.createPonto(ponto);
         }
 
-        response.sendRedirect("cadastro.html");
+        response.sendRedirect("cadastroPontos.html");
     }
 }

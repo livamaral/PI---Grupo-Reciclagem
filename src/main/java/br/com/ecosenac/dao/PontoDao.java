@@ -46,8 +46,8 @@ public class PontoDao {
 
             while (resultSet.next()) {
                 String pontoNome = resultSet.getString("nome");
-                String pontoEndereco = resultSet.getString("Endereço");
-                String pontoCep = resultSet.getString("CEP");
+                String pontoEndereco = resultSet.getString("endereco");
+                String pontoCep = resultSet.getString("cep");
                 String pontoId = resultSet.getString("Id");
 
                 ponto = new Ponto(pontoNome, pontoEndereco, pontoCep);
