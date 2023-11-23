@@ -36,13 +36,13 @@ public class login_serv extends HttpServlet {
 
             req.getSession().setAttribute("loggedUser", email);
 
-            resp.sendRedirect("index.html");
+            resp.sendRedirect("cadastroPontos.html");
 
         } else {
 
             req.setAttribute("message", "Invalid credentials!");
 
-            req.getRequestDispatcher("index.html").forward(req, resp);
+            req.getRequestDispatcher("login.html").forward(req, resp);
 
         }
 

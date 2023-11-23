@@ -2,73 +2,78 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="assets/css/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/login.css">
 </head>
 
 <body>
 <div id="Cabecalho">
-  <div>
-    <a href="index.html">
-      <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-    </a>
-  </div>
-  <div id="Menu">
-    <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
-  </div>
-  <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
+    <div>
+        <a href="#" onclick="executarTelaLogs()">
+            <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+        </a>
+    </div>
+    <div id="Menu">
+        <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+    </div>
+    <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
 </div>
 </div>
 </main>
 </header>
 <div class="container">
-  <div class="card">
-    <div class="logo2">
-      <img src="assets/img/EcoSenacLogoBrancaMenor.png" />
+    <div class="card">
+        <div class="logo2">
+            <img src="assets/img/EcoSenacLogoBrancaMenor.png" />
+        </div>
+
+        <div id="msgError"></div>
+        <form action="/login" method="post">
+
+            <div class="label-float">
+                <input type="text" id="usuario" name="email" placeholder="" required />
+                <label id="userLabel" for="usuario">Usuário</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" name="senha" placeholder="" required />
+                <label id="senhaLabel" for="senha">Senha</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <p>
+                <button onclick="cadastrar()">Cadastre-se</button>
+
+                <button onclick="entrar()">Entrar</button>
+            </p>
+        </form>
+        <script>
+            function cadastrar() {
+                window.location.href = "cadastro.html";
+            }
+
+            function entrar() {
+                var meuBoolean = true;
+            }
+        </script>
+        <script src="./assets/js/telaInicio.js"></script>
+        <script>
+            function executarTelaLogs() {
+                var meuBoolean = true;
+                telaLogs(meuBoolean);
+            }
+        </script>
+
     </div>
 
-    <div id="msgError"></div>
-    <form action="/login" method="post">
+    <div class="cardDois">
+        <div class="planeta">
+            <img src="assets/img/eco.png" />
+        </div>
 
-      <div class="label-float">
-        <input type="text" id="usuario" name="email" placeholder="" required />
-        <label id="userLabel" for="usuario">Usuário</label>
-      </div>
-
-      <div class="label-float">
-        <input type="password" id="senha" name="senha" placeholder="" required />
-        <label id="senhaLabel" for="senha">Senha</label>
-        <i class="fa fa-eye" aria-hidden="true"></i>
-      </div>
-
-      <p>
-        ESQUECI A SENHA
-        <button onclick="cadastrar()">Cadastre-se</button>
-
-        <button onclick="entrar()">Entrar</button>
-      </p>
-    </form>
-    <script>
-      function entrar() {
-        window.location.href = "index.html";
-      }
-    </script>
-    <script>
-      function cadastrar() {
-        window.location.href = "cadastro.html";
-      }
-    </script>
-
-  </div>
-
-  <div class="cardDois">
-    <div class="planeta">
-      <img src="assets/img/eco.png" />
     </div>
-
-  </div>
 </div>
 </body>
 

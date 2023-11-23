@@ -1,160 +1,154 @@
-body{
-    background-color: #FFF6F0;
-    margin: 0px;
+body {
+  background-color: #fff6f0;
+  margin: 0px;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 #Cabecalho {
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: right;
-    display: grid;
-    grid-template-columns: max-content max-content max-content;
-    place-content: space-between;
-    gap: 10px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  place-content: space-between;
+  gap: 10px;
 }
 
 #Logo {
-    padding: 5px;
+  padding: 5px;
 }
 
 #Menu {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
 }
 
 #Menu a {
-    text-decoration: none;
-    color: #466441;
-    font-family: League Spartan;
-    font-size: 24px;
-    font-style: normal;
-    padding: 20px;
+  text-decoration: none;
+  color: #466441;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  padding: 20px;
 }
 
 #Conta {
-    display: grid;
-    grid-template-columns: 24px 1fr;
-    grid-template-rows: 24px;
-    align-content: center;
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-template-rows: 24px;
+  align-content: center;
 }
 
 #Conta a {
-    text-decoration: none;
-    color: #466441;
-    font-family: League Spartan;
-    font-size: 24px;
-    font-style: normal;
-    margin-left: 10px;
-    padding-right: 20px;
+  text-decoration: none;
+  color: #466441;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-style: normal;
+  margin-left: 10px;
+  padding-right: 20px;
+}
+.sobre1 img {
+  max-width: 75%;
+  margin: auto;
 }
 
-h1 {
-    text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
-    color: #000000;
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 42px;
+.sobre1 h1 {
+  font-family: "Century Gothic", sans-serif;
+  margin: 20px;
 }
 
-h2 {
-    text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
-    color: #000000;
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 42px;
+.nossaHistoria h1 {
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  font-size: 82px;
 }
 
-#nos {
-    height: 700px;
-    margin-left: 200px;
+.nossaHistoria h2 {
+  font-family: "Century Gothic", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 45px;
+  padding-bottom: 120px;
 }
 
-.nossahistoria {
-    background-color: #98C98F;
-    height: 900px;
+.nossaHistoria {
+  background-color: #98c98f;
 }
-
-.nossahistoria h1 {
-    text-align: center;
-    color: #000000;
-    font-family: 'Russo One', sans-serif;
-    font-size: 82px;
-    margin: 100px auto;
-    padding-top: 50px;
+#missaoText {
+  text-align: center;
+  margin-top: 30px;
 }
-
-.missao {
-    clear: both;
-    padding-top: 50px;
-}
-
 .missao img {
-    float: left;
-    margin-right: 20px;
-    padding-top: 150px;
+  width: 40%;
+  margin: auto;
 }
 
-.missao h1 {
-    font-size: 82px;
-    margin-top: 150px;
-    font-family: 'Russo One', sans-serif;
+.missao #h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 80px;
+  justify-content: center;
+  display: inline;
+  margin-top: 20px;
 }
 
-.missao h2 {
-    margin-left: 700px;
-    margin-top: 0;
+.missao #h2 {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 40px;
+  padding-bottom: 120px;
 }
 
-.visao {
-    clear: both;
+.visao-container {
+  position: relative;
 }
 
-.visao img {
-    float: right;
-    margin-right: 20px;
-    height: 500px;
+#linha {
+  width: 45%;
+  height: auto;
+  display: block;
+  transform: scaleX(-1);
 }
 
-.visao h1 {
-    font-size: 82px;
-    font-family: 'Russo One', sans-serif;
-    margin-top: 500px;
+.texto-sobre-imagem {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  z-index: 1;
+  text-align: center;
 }
 
-.visao h1, .visao h2 {
-    margin-left: 20px;
-    margin-right: 100px;
+.texto-sobre-imagem h1 {
+  margin: 0;
+  font-family: "Russo One", sans-serif;
+  font-size: 80px;
+  margin-top: 200px;
 }
 
-.valores {
-    clear: both;
+.texto-sobre-imagem h2 {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 40px;
 }
 
 .valores img {
-    float: left;
-    margin-left: 20px;
-    margin-bottom: 250px;
-    height: 600px;
+  width: 50%;
+  margin: auto;
 }
 
 .valores h1 {
-    font-size: 82px;
-    font-family: 'Russo One', sans-serif;
-    margin-top: 500px;
+  margin: 0;
+  font-family: "Russo One", sans-serif;
+  font-size: 70px;
+  text-align: center;
 }
 
-.valores h1, .valores h2 {
-    margin-left: 0;
-    margin-right: 20px;
-}
-
-.valores p {
-    margin: 10px 0;
+.valores h2 {
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 25px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,86 +9,95 @@
 </head>
 
 <body>
-<div id="Cabecalho">
-    <div>
-        <a href="index.html">
-            <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-        </a>
-    </div>
-    <div id="Menu">
-        <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
-    </div>
-    <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
-</div>
-
-<div class="container">
-    <div class="card">
-        <h1>Cadastrar</h1>
-        <h2>Preencha seus Dados</h2>
-
-        <div id="msgError"></div>
-        <div id="msgSuccess"></div>
-
-        <form action="/create-ecosenac" method="POST" onsubmit="return validarFormulario()">
-            <div class="label-float">
-                <input type="text" id="nome" name="nome" placeholder=" " required />
-                <label id="labelNome" for="nome">Nome</label>
-            </div>
-
-            <div class="label-float">
-                <input type="text" id="email" name="email" placeholder=" " required />
-                <label id="labelEmail" for="email">Email</label>
-            </div>
-
-            <div class="label-float">
-                <input type="password" id="senha" name="senha" placeholder=" " required />
-                <label id="labelSenha" for="senha">Senha</label>
-                <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
-            </div>
-
-            <div class="label-float">
-                <input type="text" id="telefone" name="telefone" placeholder=" " required />
-                <label id="labelTelefone" for="telefone">Telefone</label>
-            </div>
-
-            <div class="justify-center">
-                <button type="submit" class="botao">Cadastrar</button>
-            </div>
-        </form>
+    <div id="Cabecalho">
+        <div>
+            <a href="#" onclick="executarTelaLogs()">
+                <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+            </a>
+        </div>
+        <div id="Menu">
+            <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+        </div>
+        <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
     </div>
 
-    <div class="card2">
-        <div class="logo2">
-            <img src="assets/img/EcoSenacLogoBrancaMenor.png"/>
+    <div class="container">
+        <div class="card">
+            <h1>Cadastrar</h1>
+            <h2>Preencha seus Dados</h2>
+
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+
+            <form action="/create-ecosenac" method="POST" onsubmit="return validarFormulario()">
+                <div class="label-float">
+                    <input type="text" id="nome" name="nome" placeholder=" " required />
+                    <label id="labelNome" for="nome">Nome</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="text" id="email" name="email" placeholder=" " required />
+                    <label id="labelEmail" for="email">Email</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="senha" name="senha" placeholder=" " required />
+                    <label id="labelSenha" for="senha">Senha</label>
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div class="label-float">
+                    <input type="text" id="telefone" name="telefone" placeholder=" " required />
+                    <label id="labelTelefone" for="telefone">Telefone</label>
+                </div>
+
+                <div class="justify-center">
+                    <button type="submit" class="botao">Cadastrar</button>
+                </div>
+            </form>
         </div>
 
-        <h1>Bem-Vindo!</h1>
-        <h2>Conecte sua conta ou Cadastre-se</h2>
+        <div class="card2">
+            <div class="logo2">
+                <img src="assets/img/EcoSenacLogoBrancaMenor.png" />
+            </div>
 
-        <button onclick="logar()">Entrar</button>
-    </div>
-    <script>
-        function logar() {
-            window.location.href = "login.html";
-        }
+            <h1>Bem-Vindo!</h1>
+            <h2>Conecte sua conta ou Cadastre-se</h2>
 
-        function validarFormulario() {
-
-            var formularioValido = true;
-
-            if (formularioValido) {
-                mostrarAlerta();
-                return true;
-            } else {
-                return false;
+            <button onclick="logar()">Entrar</button>
+        </div>
+        <script>
+            function logar() {
+                window.location.href = "login.html";
             }
-        }
 
-        function mostrarAlerta() {
-            alert("Usuário Cadastrado com Sucesso!");
-            window.location.href = "cadastro.html";
-        }
-    </script>
-</div>
+            function validarFormulario() {
+
+                var formularioValido = true;
+
+                if (formularioValido) {
+                    mostrarAlerta();
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            function mostrarAlerta() {
+                alert("Usuário Cadastrado com Sucesso!");
+                window.location.href = "cadastro.html";
+                var meuBoolean = true;
+            }
+        </script>
+        <script src="./assets/js/telaInicio.js"></script>
+        <script>
+            function executarTelaLogs() {
+                var meuBoolean = true;
+                telaLogs(meuBoolean);
+            }
+        </script>
+    </div>
 </body>
+
 </html>

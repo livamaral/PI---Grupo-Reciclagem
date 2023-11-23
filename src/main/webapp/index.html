@@ -12,7 +12,7 @@
 <body>
   <div id="Cabecalho">
     <div>
-      <a href="index.html">
+      <a href="#" onclick="executarTelaLogs()">
         <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
       </a>
     </div>
@@ -24,29 +24,39 @@
   <div id="meio">
     <div id="PontoColeta"><a href="pesquisar.html"><img src="assets/img/Rectangle 17.jpg" alt="Ponto Coleta"></a></div>
     <div id="ListaPontos"><img src="assets/img/Rectangle 12.png" alt="Lista Ponto">
-      <a href="pesquisar.html">
-        <div>Lista <strong><br>PONTOS</strong></div>
+      <a href="https://www.cnnbrasil.com.br/tecnologia/podcast-entre-vozes-de-onde-vem-e-para-onde-vai-o-lixo-eletronico-que-produzimos/">
+        <div>Noticias<strong><br>Lixo eletrônico</strong></div>
       </a>
-      <a href="https://www.cnnbrasil.com.br/tudo-sobre/meio-ambiente/">
-        <div id="Diferente">Lista <strong><br>NOTICIAS</strong></div>
+      <a href="https://www.cnnbrasil.com.br/?s=Poluição+do+ar&orderby=date&order=desc">
+        <div id="Diferente">Noticias<strong><br>Poluição</strong></div>
       </a>
-      <a href="dicas.html">
-        <div>Lista <strong><br>RECICLÁVEIS</strong></div>
+      <a href="https://www.cnnbrasil.com.br/tudo-sobre/aterros-sanitarios/">
+        <div>Noticias <strong><br>Aterros sanitários</strong></div>
+      </a>
+      <a href="https://www.cnnbrasil.com.br/?s=Queimadas&orderby=date&order=desc">
+        <div>Noticias <strong><br>Queimadas</strong></div>
       </a>
     </div>
     <div id="Lixo">
       <img src="assets/img/Rectangle 18.png" alt="Lixo Brasil">
     </div>
     <div id="SobreNos">
-      <a href="sobre.html">
-        <font face="Georgia"><strong>SOBRE NÓS</strong></font><br> Venha nos conhecer!
-      </a>
+      <p>
+        <font face="Georgia"><strong>Use Ecobags!</strong></font><br> As ecobags ou sacolas retornáveis são aquelas sacolas que são produzidas com um material biodegradável ou com material mais resistente a fim de substituir o uso de várias sacolas plásticas. Existem vários tipos de ecobags e de vários materiais.
+      </p>
       <img src="assets/img/Rectangle 23.png" alt="Sacola">
     </div>
     <div id="Dicas">
       <a href="dicas.html"><img src="assets/img/Rectangle 20.png" alt=""></a>
     </div>
   </div>
+  <script src="./assets/js/telaInicio.js"></script>
+  <script>
+    function executarTelaLogs() {
+      var meuBoolean = false;
+      telaLogs(meuBoolean);
+    }
+  </script>
 </body>
 
 </html>
