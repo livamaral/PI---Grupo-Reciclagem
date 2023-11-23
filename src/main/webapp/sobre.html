@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco Senac</title>
-    <!--GOOGLE FONTES-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <!--FIM GOOGLE FONTES-->
-    <link rel="stylesheet" href="assets/css/sobre.css">
-    <script src="js/index.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco Senac</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="assets/css/sobre1.css">
 </head>
+
 <body class="body">
-    <header>
-        <div id="Cabecalho">
-            <div>
-              <a href="index.html">
-              <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-            </a>
-            </div>
-            <div id="Menu">
-              <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
-            </div>
-            <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
-          </div>
+  <header>
+    <div id="Cabecalho">
+      <div>
+        <a href="index.html">
+          <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+        </a>
+      </div>
+      <div id="Menu">
+        <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+      </div>
+      <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
+    </div>
 
-        <div class="sobre">
-            <img id="nos" src="assets/img/sobrenos.png" alt="nos">
-            <div class="sobre1">
-                <h1 class="descricao">A EcoSenac fundada em 2023, é uma empresa dedicada à reciclagem e à promoção da concientização ambiental. Nossa missão é proteger o meio ambiente, inspirar práticas sustentáveis através da reciclagem responsável e de programas educacionais e conectar uma comunidade de sustentabilidade atrvés da tecnologia. </h1>    
-            </div>
-
-            <div class="nossahistoria">
-                <h1>NOSSA HISTÓRIA</h1>
-                <h2>Em 2023, um grupo de entusiatas ambientais e estudantes unirão forças para fundar a EcoSenac, uma empresa dedicada à conectar pontos de reciclagem. A motivação por trás da criação da EcoSenac foi a crescente  apreocupação com o meio ambiente e a necessidade de ações concretas para enfrentar os desafios da poluição e desperdício.</h2>
-            </div>
-
-            <div class="missao">
-                <img id="sacolixo" src="assets/img/sacolixo1.png" alt="sacolixo">
-                <h1>MISSÃO</h1>
-                <h2>A missão do EcoSenac é liderar pelo exemplo na preservação do meio ambiente e na promoção da prática sustentáveis. Queremos conectar uma comunidade de pessoas que se preocupão com nosso planeta atráveis da tecnologia.</h2>
-            </div>
-
-            <div class="visao">
-            <img id="linha" src="assets/img/linha.png" alt="linha">
-                <h1>VISÃO</h1>
-                <h2>Acreditamos em que a sustentabilidade e o cuidado com nosso planeta possa ser algo democratíco. Acreditamos que a tecnologia e as pessoas podem mudar o nosso presente e futuro atráveis da conexão.</h2>
-            </div>
-
-            <div class="valores">
-            <img id="dupla" src="assets/img/dupla.png" alt="dupla">
-                <h1>VALORES</h1>
-                <h2><p>Sustentabilidade</p>
-                    <p>Colaboração</p>
-                    <p>Inovação</p>  
-                </h2>
-            </div>
-
+    <body>
+      <div class="slider">
+        <div class="sobre1">
+          <img id="nos" src="assets/img/sobrenos.png" alt="nos">
+          <h1 class="descricao">A EcoSenac fundada em 2023, é uma empresa dedicada à reciclagem e à promoção da concientização ambiental. Nossa missão é proteger o meio ambiente, inspirar práticas sustentáveis através da reciclagem responsável e de programas educacionais e conectar uma comunidade de sustentabilidade através da tecnologia. </h1>
         </div>
+        <div class="nossaHistoria">
+          <h1>NOSSA HISTÓRIA</h1>
+          <h2>Em 2023, um grupo de entusiatas ambientais e estudantes unirão forças para fundar a EcoSenac, uma empresa dedicada à conectar pontos de reciclagem. A motivação por trás da criação da EcoSenac foi a crescente apreocupação com o meio ambiente e a necessidade de ações concretas para enfrentar os desafios da poluição e desperdício.</h2>
+        </div>
+        <div class="missao">
+          <div id="missaoText">
+            <span id="h1">MISSÃO</span><br>
+            <span id="h2">A missão do EcoSenac é liderar pelo exemplo na preservação do meio ambiente e na promoção da prática sustentáveis. <br> Queremos conectar uma comunidade de pessoas que se preocupão com nosso planeta atráveis da tecnologia.</span>
+            <img id="sacolixo" src="assets/img/sacolixo1.png" alt="sacolixo">
+          </div>
+        </div>
+        <div class="visao-container">
+          <img id="linha" src="assets/img/linha.png" alt="linha">
+          <div class="texto-sobre-imagem">
+            <h1>VISÃO</h1>
+            <h2>Acreditamos em que a sustentabilidade e o cuidado com nosso planeta possam ser algo democrático. Acreditamos que a tecnologia e as pessoas podem mudar o nosso presente e futuro através da conexão.</h2>
+          </div>
+        </div>
+        <div class="valores"> <img id="dupla" src="assets/img/dupla.png" alt="dupla">
+          <h1>VALORES</h1>
+          <h2>
+            <p>Sustentabilidade</p>
+            <p>Colaboração</p>
+            <p>Inovação</p>
+          </h2>
+        </div>
+      </div>
+      <script>
+        $(document).ready(function () {
+          $('.slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          });
+        });
+      </script>
+    </body>
 
-    </header>
-</body>
 </html>
