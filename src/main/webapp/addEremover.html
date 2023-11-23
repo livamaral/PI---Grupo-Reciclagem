@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,42 +10,50 @@
 </head>
 
 <body>
-<div id="Cabecalho">
-    <div>
-        <a href="index.html">
-            <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-        </a>
-    </div>
-    <div id="Menu">
-        <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
-    </div>
-    <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
-</div>
-</div>
-</main>
-</header>
-
-<div class="container">
-    <div class="card">
-        <h1>Pesquise o ponto</h1>
-
-
-    </div>
-    <div class="card2">
-        <div class="logo2">
-            <img src="assets/img/EcoSenacLogoBrancaMenor.png"/>
+    <div id="Cabecalho">
+        <div>
+            <a href="#" onclick="executarTelaLogs()">
+                <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+            </a>
         </div>
-        <h1>PONTOS DE COLETA</h1>
-        <h2>Aqui você encontra o ponto de coleta mais próximo de você!</h2>
-
-
+        <div id="Menu">
+            <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+        </div>
+        <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
     </div>
-</div>
+    </div>
+    </main>
+    </header>
 
-<script>
-    function cadastrarPonto() {
-        window.location.href = "cadastro_pontos.html";
-    }
-</script>
+    <div class="container">
+        <div class="card">
+            <h1>Pesquise o ponto</h1>
+
+
+        </div>
+        <div class="card2">
+            <div class="logo2">
+                <img src="assets/img/EcoSenacLogoBrancaMenor.png" />
+            </div>
+            <h1>PONTOS DE COLETA</h1>
+            <h2>Aqui você encontra o ponto de coleta mais próximo de você!</h2>
+
+
+        </div>
+    </div>
+
+    <script>
+        function cadastrarPonto() {
+            window.location.href = "cadastro_pontos.html";
+        }
+    </script>
+
+    <script src="./assets/js/telaInicio.js"></script>
+    <script>
+        function executarTelaLogs() {
+            telaLogs(meuBoolean);
+        }
+    </script>
 </body>
+
 </html>

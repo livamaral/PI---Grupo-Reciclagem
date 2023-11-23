@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,74 +9,81 @@
 </head>
 
 <body>
-<div id="Cabecalho">
-  <div>
-    <a href="index.html">
-      <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-    </a>
-  </div>
-  <div id="Menu">
-    <span><a href="addEremover.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a><a href="cadastroPontos.html">Cadastrar Pontos</a></span>
-  </div>
-  <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
-</div>
-
-<div class="container">
-  <div class="card">
-    <h1>Cadastrar Pontos</h1>
-    <h2>Preencha os Dados</h2>
-
-    <div id="msgError"></div>
-    <div id="msgSuccess"></div>
-
-    <form action="/create-ponto" method="POST" onsubmit="return validarFormulario()">
-      <div class="label-float">
-        <input type="text" id="nome" name="nome" placeholder=" " required />
-        <label id="labelNome" for="nome">Nome</label>
-      </div>
-
-      <div class="label-float">
-        <input type="text" id="endereco" name="endereco" placeholder=" " required />
-        <label id="labelEndereco" for="endereco">Endereço</label>
-      </div>
-
-      <div class="label-float">
-        <input type="text" id="cep" name="cep" placeholder=" " required />
-        <label id="labelCep" for="cep">CEP</label>
-      </div>
-
-      <div class="justify-center">
-        <button type="submit" class="botaoPonto">Cadastrar Ponto</button>
-      </div>
-    </form>
+  <div id="Cabecalho">
+    <div>
+      <a href="#" onclick="executarTelaLogs()">
+        <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+      </a>
+    </div>
+    <div id="Menu">
+      <span><a href="addEremover.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a><a href="cadastroPontos.html">Cadastrar Pontos</a></span>
+    </div>
+    <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
   </div>
 
-  <div class="card2">
-    <div class="logo2">
-      <img src="assets/img/EcoSenacLogoBrancaMenor.png"/>
+  <div class="container">
+    <div class="card">
+      <h1>Cadastrar Pontos</h1>
+      <h2>Preencha os Dados</h2>
+
+      <div id="msgError"></div>
+      <div id="msgSuccess"></div>
+
+      <form action="/create-ponto" method="POST" onsubmit="return validarFormulario()">
+        <div class="label-float">
+          <input type="text" id="nome" name="nome" placeholder=" " required />
+          <label id="labelNome" for="nome">Nome</label>
+        </div>
+
+        <div class="label-float">
+          <input type="text" id="endereco" name="endereco" placeholder=" " required />
+          <label id="labelEndereco" for="endereco">Endereço</label>
+        </div>
+
+        <div class="label-float">
+          <input type="text" id="cep" name="cep" placeholder=" " required />
+          <label id="labelCep" for="cep">CEP</label>
+        </div>
+
+        <div class="justify-center">
+          <button type="submit" class="botaoPonto">Cadastrar Ponto</button>
+        </div>
+      </form>
     </div>
 
-    <h1>Cadastre pontos para a coleta do lixo!</h1>
+    <div class="card2">
+      <div class="logo2">
+        <img src="assets/img/EcoSenacLogoBrancaMenor.png" />
+      </div>
 
-  </div>
-  <script>
-    function validarFormulario() {
+      <h1>Cadastre pontos para a coleta do lixo!</h1>
 
-      var formularioValido = true;
+    </div>
+    <script>
+      function validarFormulario() {
 
-      if (formularioValido) {
-        mostrarAlerta();
-        return true;
-      } else {
-        return false;
+        var formularioValido = true;
+
+        if (formularioValido) {
+          mostrarAlerta();
+          return true;
+        } else {
+          return false;
+        }
       }
-    }
 
-    function mostrarAlerta() {
-      alert("Ponto Cadastrado com Sucesso!");
-      window.location.href = "cadastroPontos.html";
-    }
-  </script>
-</div>
+      function mostrarAlerta() {
+        alert("Ponto Cadastrado com Sucesso!");
+        window.location.href = "cadastroPontos.html";
+      }
+    </script>
+    <script src="./assets/js/telaInicio.js"></script>
+    <script>
+      function executarTelaLogs() {
+        telaLogs(meuBoolean);
+      }
+    </script>
+  </div>
 </body>
+
 </html>

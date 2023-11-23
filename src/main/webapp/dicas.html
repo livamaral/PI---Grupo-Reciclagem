@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,28 +12,29 @@
     <!--FIM GOOGLE FONTES-->
     <link rel="stylesheet" href="assets/css/dicas.css">
     <script src="js/index.js"></script>
-    
+
 </head>
+
 <body class="body">
     <header>
         <div id="Cabecalho">
             <div>
-              <a href="index.html">
-              <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
-            </a>
+                <a href="#" onclick="executarTelaLogs()">
+                    <img id="Logo" src="assets/img/EcoSenacLogo 1.png" alt="Logo">
+                </a>
             </div>
             <div id="Menu">
-              <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
+                <span><a href="pesquisar.html">Pontos de Coleta</a><a href="dicas.html">Dicas</a><a href="sobre.html">Sobre Nós</a></span>
             </div>
             <div id="Conta"><img src="assets/img/user 1.svg" alt="Conta Logo"><a href="login.html">Conta</a></div>
-          </div>
+        </div>
 
         <div class="dicas">
             <img id="garoto" src="assets/img/garoto.png" alt="garoto">
             <div class="card1">
-                <h1 class="comeco">DICAS</h1>   
-                <h2 class="comeco2" >
-                    <p>VEM APRENDER </p> 
+                <h1 class="comeco">DICAS</h1>
+                <h2 class="comeco2">
+                    <p>VEM APRENDER </p>
                     <p>COM A GENTE</p>
                 </h2>
             </div>
@@ -54,7 +56,7 @@
                 <img id="cores" src="assets/img/cores.png" alt="cores">
                 <h1>02 - ORGÂNICO E INORGÂNICO</h1>
                 <h2>Os resíduos podem ser divididos em dois tipos: lixo orgânico e lixo inorgânico1. A diferença entre esses dois tipos de lixo está em sua origem. O lixo orgânico é proveniente de materiais animais ou vegetais, enquanto o lixo inorgânico existe por meio das transformações feitas pelos ser humano, principalmente no que se refere a produção desses componentes, como alumínio, vidro e metais. Os contentores para lixo são divididos por cores, os quais indicam o tipo de lixo a ser depositado</h2>
-                </div>
+            </div>
 
             <div class="card5">
                 <img id="maca" src="assets/img/maca.png" alt="maca">
@@ -68,7 +70,7 @@
                 <h1>04 - ENCONTRE UM PONTO DE COLETA</h1>
                 <h2>Depois de você separa os resíduos é hora de destinar para onde ele irar, é por isso que nós criamos a EcoSenac, para conectarmos toda uma comunidade que se preocupa para onde o lixo vai impactar.</h2>
                 <h2>Aqui na EcoSenac você se conectar com o ponto de coleta mais próximo de você e ir até ele para fazer parte dessa comunidade. É simples, em nossa pagina de pesquisar ponto, você pesquisa e encontra o pontos de coletas que estão cadastrados em nosso sistema mais próximo de você!</h2>
-                
+
             </div>
 
             <div class="card7">
@@ -76,10 +78,18 @@
                 <h1>COMPARTILHE COM AMIGOS</h1>
                 <h2>Não esqueça que a informação é nossa maior aliada nessa jornada, quando você leva a informação para mais pessoas a nossa chance de cuidar do nosso planeta só aumentam. </h2>
 
-            /</div>
+                /
+            </div>
 
         </div>
 
     </header>
+    <script src="./assets/js/telaInicio.js"></script>
+    <script>
+        function executarTelaLogs() {
+            telaLogs(meuBoolean);
+        }
+    </script>
 </body>
+
 </html>
